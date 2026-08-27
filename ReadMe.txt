@@ -18,3 +18,5 @@ Invalid and corrupted sensor readings were identified and converted to missing v
 The corrupted/outlier values were replaced using interpolation based on neighboring valid readings.
 A moving average filter was then applied to reduce random sensor noise and produce smoother depth data.
 Finally, Matplotlib was used to plot the depth-time graph and animate it by adding one data point every second.
+
+(Honestly, all the code for task 1 was generated using AI with my inputs regarding the methods, since  I'm still at a learning stage of the pandas library)
