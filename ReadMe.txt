@@ -3,8 +3,12 @@ ID  : 2025A3PS0373H
 
 TASK 2:
 EXPLANATION:
-
-In my code, I have taken the initial state to be ANCHOR_DROPPED, this way I can be assured that I am protected if my initial conditions(state) is a hazard, and can launch open my sails immediately after I press the button. The code follows all the instructions
+The system was built in Tinkercad using an Arduino, ultrasonic distance sensor, light sensor, LCD, push button, LED, and buzzer.
+A state machine was implemented with the five required states: OPEN SEA, ANCHOR DROPPED, STORM, CHARYBDIS, and WRECKED.
+The light sensor and ultrasonic sensor were used to detect STORM and CHARYBDIS conditions using the given thresholds.
+millis() was used to track the required continuous five-second danger period without blocking the system, while the LED and buzzer provide the required warnings.
+The current state is displayed on the LCD, with the anchor protecting the ship and resetting the danger timer when dropped.
+The code follows all the instructions
 given in the task pdf.
 
 Link to Tinker Cad:
